@@ -1,0 +1,36 @@
+.ver_todo{
+    background-color: white;
+  color: blue;
+  border: 2px solid #003cff;
+  }
+.container1{
+    width: 100%;
+    height: 50%;
+   
+    display: flex;
+}
+.citas_hoy{
+    background-color: rgb(184, 86, 156);
+    width: 50%;
+    height: 50%;
+   
+
+}
+.citas_faltantes{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(204, 173, 195);
+
+}
+.img1{
+    margin: 0% 0 0 90%;
+    width: 10%;
+    height: 10%;
+
+}
+.img2{
+    margin: 0% 0 0 90%;
+    width: 10%;
+    height: 5%;
+
+}
