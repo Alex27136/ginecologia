@@ -126,49 +126,104 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Agenda</h1>
+        <h1 class="h2">Resumen de agenda</h1>
         <div class="btn-toolbar mb-2 mb-md-0">
          
         </div>
       </div>
-      <h5>Resumen</h5>
       <div class="table-responsive">
-      <div class="container1">
-        <div class="citas_hoy">
-          <h4>Citas Agendadas El Dia De Hoy</h4>
-          <h3>5<h3>
-          <img class="img1" src="{{ asset('css/icono_cita.png')}}">
+      <div class="tabla">
+        <table class="table table-resposive table-sm">
+            <thead>
+              <tr>
+                <th scope="row">Pendientes</th>
+                <th scope="row">Concluidos</th>
+                <th scope="row">Re-programados</th>
+                <th scope="row">Cancelados</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+              <td>2</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+              <td>2</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+              <td>2</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+              <td>2</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+              <td>2</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+              <td>2</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+              <td>2</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+              <td>2</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+              <td>2</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         
+        <button class='ver_todo'> Ver Todo </button>
+        <div class="container1">
+          <div class="container_citas">
+            <div class="citas_hoy">
+              <h4>Citas Agendadas El Dia De Hoy</h4>
+              <h3>5<h3>
+              <img class="img1" src="{{ asset('css/icono_cita.png')}}">
+            </div>
+          </div>
+          <div class="container_citas">
+            <div class="citas_faltantes">
+              <h4> Citas Faltantes Del Dia De Hoy</h4>
+              <h3>10<h3>
+              <img class="img2" src="{{ asset('css/icono_advertencia.png')}}">
+            </div>
+          </div>
         </div>
-        <div class="citas_faltantes">
-          <h4> Citas Faltantes Del Dia De Hoy</h4>
-          <h3>10<h3>
-
-          <img class="img2" src="{{ asset('css/icono_advertencia.png')}}">
-
-        </div>
-
-      </div>
-        <table class="table table-striped table-sm">
-          <thead>
-            <tr>
-              <th scope="col">Pendientes</th>
-              <th scope="col">Concluidos</th>
-              <th scope="col">Re-programados</th>
-              <th scope="col">Cancelados</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>2</td>
-              <td>5</td>
-              <td>2</td>
-              <td>3</td>
-            </tr>
-          </tbody>
-        </table>
-        <button class='ver_todo'> Ver Todo </button
-      </div>
     </main>
   </div>
 </div>
