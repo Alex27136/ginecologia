@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\pacientesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +15,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+// Route::get('proyect', [pacientesController::class, 'index']);
+// Route::get('proyect', [pacientesController::class, 'servicios']);
+
+Route::get('/registro', function () {
+    return view('registro');
+});
+
+Route::get('/servicios', function () {
+    return view('servicios');
 });
