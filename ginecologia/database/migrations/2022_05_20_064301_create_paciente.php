@@ -13,8 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('procedimiento', function (Blueprint $table) {
+        Schema::create('paciente', function (Blueprint $table) {
             $table->id();
+            $table->string('name_paciente');
+            $table->bigInteger('telefono');
+            $table->bigInteger('edad');
+            $table->string('correo')->unique();
+
+
             $table->timestamps();
         });
     }
@@ -26,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('procedimiento');
+        Schema::dropIfExists('paciente');
     }
 };

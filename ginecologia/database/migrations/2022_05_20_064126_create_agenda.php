@@ -13,8 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('paciente', function (Blueprint $table) {
+        Schema::create('agenda', function (Blueprint $table) {
             $table->id();
+            $table->string('tipo_cita');
+            $table->dateTime('fecha', $precision = 0);
             $table->timestamps();
         });
     }
@@ -26,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('paciente');
+        Schema::dropIfExists('agenda');
     }
 };
