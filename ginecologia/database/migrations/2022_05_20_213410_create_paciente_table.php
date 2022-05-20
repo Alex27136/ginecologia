@@ -18,9 +18,6 @@ return new class extends Migration
             $table->string('name_paciente');
             $table->bigInteger('telefono');
             $table->bigInteger('edad');
-            $table->string('correo')->unique();
-
-
             $table->timestamps();
         });
     }
