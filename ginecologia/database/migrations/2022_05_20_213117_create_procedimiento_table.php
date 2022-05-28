@@ -13,8 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('agenda', function (Blueprint $table) {
+        Schema::create('procedimiento', function (Blueprint $table) {
             $table->id();
+            $table->string('name_procedimiento');
+            $table->text('seguimiento');
+            $table->bigInteger('precio');
             $table->timestamps();
         });
     }
@@ -26,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('agenda');
+        Schema::dropIfExists('procedimiento');
     }
 };
