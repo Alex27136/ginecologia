@@ -72,19 +72,25 @@
                         <li class="nav-item">
                             <a class="nav-link" href=<?= url('/servicios') ?>>
                                 <span data-feather="shopping-cart"></span>
-                                servicios
+                            Servicios
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href=<?= url('/registro') ?>>
                                 <span data-feather="users"></span>
-                                registro pacientes
+                                Registrar paciente
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href=<?= url('/citas') ?>>
+                                <span data-feather="users"></span>
+                                Agendar cita
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=<?= url('/seguimiento') ?>>
                                 <span data-feather="bar-chart-2"></span>
-                                Reports
+                                Seguimiento
                             </a>
                         </li>
                         <li class="nav-item">
