@@ -60,7 +60,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href=<?= url('/') ?>>
                                 <span data-feather="home"></span>
-                                Dashboard
+                                Inicio
                             </a>
                         </li>
                         <li class="nav-item">
@@ -72,25 +72,19 @@
                         <li class="nav-item">
                             <a class="nav-link" href=<?= url('/servicios') ?>>
                                 <span data-feather="shopping-cart"></span>
-                            Servicios
+                                servicios
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href=<?= url('/registro') ?>>
+                            <a class="nav-link" href=<?= url('/registro')?>>
                                 <span data-feather="users"></span>
-                                Registrar paciente
+                                registro pacientes
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href=<?= url('/citas') ?>>
-                                <span data-feather="users"></span>
-                                Agendar cita
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href=<?= url('/seguimiento') ?>>
+                            <a class="nav-link" href=<?= url('/promociones') ?>>
                                 <span data-feather="bar-chart-2"></span>
-                                Seguimiento
+                                Promociones
                             </a>
                         </li>
                         <li class="nav-item">
@@ -101,7 +95,7 @@
                         </li>
                     </ul>
 
-                    {{-- <h6
+                    <h6
                         class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                         <span>Saved reports</span>
                         <a class="link-secondary" href="#" aria-label="Add a new report">
@@ -133,13 +127,12 @@
                                 Year-end sale
                             </a>
                         </li>
-                    </ul> --}}
+                    </ul>
                 </div>
             </nav>
 
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-                <div
-                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
 
                     <div class="btn-toolbar mb-2 mb-md-0">
 
@@ -149,8 +142,6 @@
                 <div>
 
                     @yield('content')
-
-
 
                 </div>
 
