@@ -1,0 +1,32 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "sdk": "cd vendor/sdkconsultoria/base && npm install",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000"
+    },
+    "devDependencies": {
+        "@heroicons/vue": "^1.0.6",
+        "@sdkconsultoria/base": "file:vendor/sdkconsultoria/base",
+        "@tailwindcss/forms": "^0.5.1",
+        "alpinejs": "^3.10.1",
+        "autoprefixer": "^10.4.7",
+        "axios": "^0.27.2",
+        "cropperjs": "^1.5.12",
+        "jodit": "^3.18.5",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "photoswipe": "^5.2.7",
+        "postcss": "^8.4.13",
+        "postcss-import": "^14.1.0",
+        "sweetalert2": "^11.4.14",
+        "tailwindcss": "^3.0.24",
+        "vue": "^3.2.33",
+        "vue-loader": "^17.0.0"
+    }
+}
